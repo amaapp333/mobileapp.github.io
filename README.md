@@ -1,2 +1,6 @@
-## Mobileapp.Github.io
+
 # Maliek Web
+
+
+
+``` $ curl -I https://ampbyexample.com/components/amp-img/  HTTP/1.1 301 Moved Permanently Content-Type: text/html; charset=utf-8 Location: https://amp.dev/documentation/examples/components/amp-img/ ... ```  Then the AMP Cache will return the content of the resolved redirect for the original URL.  Example: [https://amp-dev.cdn.ampproject.org/c/s/ampbyexample.com/components/amp-img/](https://cdn.ampproject.org/c/s/ampbyexample.com/components/amp-img/).  Important: If you move the location of the AMP Files on your server, make sure to set up a redirect from the old location to the new one.  **Not Found**  When a page is not found in the AMP Cache, it will show an error page and return a 404 status.  Example: [https://amp-dev.cdn.ampproject.org/amp.dev/not-found](https://cdn.ampproject.org/c/s/amp.dev/not-found)  **Invalid AMP**  When a page is invalid AMP, the AMP Cache will return a 404 status.</p>  Example: [https://amp-dev.cdn.ampproject.org/amp.dev/static/samples/files/invalid_amp.html](https://cdn.ampproject.org/c/s/amp.dev/static/samples/files/invalid_amp.html)  **Server Errors**  If an URL returns a 5XX server errors, the AMP Cache will return a 404 status.</p>  Example: [https://amp-dev.cdn.ampproject.org/amp.dev/documentation/examples/api/error](https://cdn.ampproject.org/c/s/amp.dev/documentation/examples/api/error)  -->
